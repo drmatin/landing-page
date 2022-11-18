@@ -1,0 +1,106 @@
+@font-face {
+    font-family: aviny;
+    src: url('../font/aviny.otf');
+    src: url('../font/aviny.ttf') format('ttf'),
+        url('../font/aviny\ web.woff') format('woff'),
+        url('../font/aviny\ web.woff2') format('woff2');
+}
+body{
+    font-family: aviny;
+    background-color: #eee;
+}
+.navbar{
+    font-size: 24px;
+    background: #371B58 !important;
+}
+.navbar-brand{
+    font-size: 29px;
+    color: white;
+}
+.navbar-brand:hover{
+   color: orange;
+}
+.dropdown-item{
+    color: black;
+}
+.dropdown-menu{
+    font-size: 20px;
+}
+.navbar-nav > li > a{
+    color: white !important;
+}
+.navbar-nav li a:hover{
+    color: orange  !important ;
+}
+p {
+    font-size: 20px !important;
+}
+h5 > a{
+    font-size: 25px;
+}
+.btn-sec1{
+    font-size: 20px;
+}
+.sec2{
+    background-color: #ddd;
+}
+.icon {
+    color: #371B58;
+    background-color: #ccc;
+    font-size: 30px;
+    border-radius: 7px;
+    padding: 13px;
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+}
+.card-bg{
+    background-color: #371B58;
+    color: white;
+
+}
+.banafsh{
+    background-color: #371B58;
+    position: relative;
+}
+.wave3{
+    position: absolute;
+    bottom: 99%;
+}
+.tx-area{
+    min-height: 150px !important;
+    max-height: 150px !important;
+}
+.icons-sec5{
+    width: 100px;
+    height: 100px;
+}
+.banafsh2{
+    background-color: #371B58;
+    position: relative;
+}
+.wave-footer{
+    position: absolute;
+    bottom: 99%;
+}
+footer i{
+    transition: all .3s ease-in-out;
+}
+footer i:hover {
+    color: orange !important;
+
+}
+.footer-header{
+    border-bottom: 3px solid white;
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.footer-link:hover{
+    color: orange !important;
+}
+.footer-row{
+    margin-bottom: 60px;
+}
